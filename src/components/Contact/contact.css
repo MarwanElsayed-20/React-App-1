@@ -1,0 +1,7 @@
+.contact {
+  color: var(--main-color);
+  padding-top: 130px !important;
+}
+.contact .header-info .line-style .line {
+  background-color: var(--main-color);
+}

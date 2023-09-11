@@ -1,0 +1,7 @@
+.portfolio {
+  color: var(--main-color);
+  padding-top: 130px !important;
+}
+.portfolio .header-info .line-style .line {
+  background-color: var(--main-color);
+}

@@ -1,0 +1,7 @@
+nav {
+  background-color: var(--main-color);
+  transition: 0.5s padding;
+}
+.active {
+  background-color: var(--background-color);
+}

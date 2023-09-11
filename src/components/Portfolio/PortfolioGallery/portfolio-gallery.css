@@ -1,0 +1,12 @@
+.work {
+  cursor: pointer;
+}
+.over-flow {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.6s opacity;
+}
+.work:hover .over-flow {
+  opacity: 1;
+}

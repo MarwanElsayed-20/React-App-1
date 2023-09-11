@@ -1,0 +1,7 @@
+.home {
+  background-color: var(--background-color);
+  padding-top: 130px !important;
+}
+.home img {
+  width: 250px;
+}

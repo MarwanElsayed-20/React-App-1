@@ -1,0 +1,11 @@
+@media (max-width: 991.98px) {
+  .active {
+    padding-left: 10px;
+  }
+  .navbar-collapse {
+    padding-top: 10px;
+  }
+  .single-img {
+    width: 100% !important;
+  }
+}
