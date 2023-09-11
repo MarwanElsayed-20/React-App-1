@@ -1,9 +1,5 @@
 import { Suspense, lazy } from "react";
-import {
-  RouterProvider,
-  createBrowserRouter,
-  createHashRouter,
-} from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import "./App.css";
 import "./media.css";
 import Layout from "./components/Layout/Layout";

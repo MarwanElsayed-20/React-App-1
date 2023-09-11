@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Title from "../Title/Title";
 import Line from "../Line/Line";
 import "../About/about.css";
 
@@ -12,7 +11,7 @@ export default function About() {
       <section className="about py-5 text-white text-center">
         <div className="container d-flex align-items-center justify-content-center flex-column">
           <div className="header-info">
-            <Title />
+            <h1 className="text-uppercase mb-3 fw-bolder fs-1">About</h1>
             <Line />
           </div>
           <div className="row text-start">

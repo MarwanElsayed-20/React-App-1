@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import headerImg from "../../assets/avataaars.svg";
 import "../Home/home.css";
 import Line from "../Line/Line";
-import Title from "../Title/Title";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Home() {
@@ -17,7 +16,9 @@ export default function Home() {
             <LazyLoadImage src={headerImg} alt="" />
           </div>
           <div className="header-info">
-            <Title />
+            <h1 className="text-uppercase mb-3 fw-bolder fs-1">
+              START FRAMEWORK
+            </h1>
             <Line />
             <p className="text-capitalize">
               graphic artist - web designer - illustrator

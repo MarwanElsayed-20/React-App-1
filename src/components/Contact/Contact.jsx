@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Title from "../Title/Title";
 import Line from "../Line/Line";
 import "../Contact/contact.css";
 import Form from "./Form/Form";
@@ -22,7 +21,7 @@ export default function Contact() {
       <section className="contact py-5 ">
         <div className="container">
           <div className="header-info text-center">
-            <Title />
+            <h1 className="text-uppercase mb-3 fw-bolder fs-1">contact</h1>
             <Line />
           </div>
           <Form showLabel={showLabel} />

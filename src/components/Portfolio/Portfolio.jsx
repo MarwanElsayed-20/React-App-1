@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Title from "../Title/Title";
 import Line from "../Line/Line";
 import "../Portfolio/portfolio.css";
 import img1 from "../../assets/poert1.png";
@@ -36,7 +35,7 @@ export default function Portfolio() {
       <section className="portfolio py-5 text-center">
         <div className="container">
           <div className="header-info">
-            <Title />
+            <h1 className="text-uppercase mb-3 fw-bolder fs-1">portfolio</h1>
             <Line />
           </div>
           <div className="row">
