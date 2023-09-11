@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://MarwanElsayed-20.github.com/React-App-1",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "",
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@mui/icons-material": "^5.14.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@babel/plugin-proposal-private-property-in-object":"",
     "bootstrap": "^5.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
