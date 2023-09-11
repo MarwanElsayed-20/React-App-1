@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Title() {
-  const title = window.location.href.split("/")[4];
+  const title = window.location.href.split("/")[5];
   console.log(title);
   return (
     <>
